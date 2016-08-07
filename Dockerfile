@@ -1,4 +1,5 @@
-From ubuntu:latest
+From node:latest
 MAINTAINER Wusisu <i@wusisu.com>
-RUN apt-get update && apt-get dist-upgrade -y
-ENTRYPOINT ['/bin/bash']
+COPY . /usr/src/app
+EXPOSE 3080
+ENTRYPOINT ['node', 'service']

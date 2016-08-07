@@ -1,0 +1,28 @@
+{
+  "name": "docker_learn",
+  "version": "1.0.0",
+  "description": "ho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run service",
+    "service": "node src/service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wusisu/docker_learn.git"
+  },
+  "author": "i@wusisu.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wusisu/docker_learn/issues"
+  },
+  "homepage": "https://github.com/wusisu/docker_learn#readme",
+  "dependencies": {
+    "babel-core": "^6.13.2",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "koa": "^2.0.0"
+  }
+}
